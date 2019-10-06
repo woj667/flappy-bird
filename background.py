@@ -21,6 +21,5 @@ class Background(Sprite):
     def update(self):
         pass
 
-
     def blitme(self):
         self.screen.blit(self.image, self.rect)
